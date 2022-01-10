@@ -14,6 +14,9 @@ function revStr(str) {
 console.log(revStr("Dennis"));
 
 //Pointers
+// This takes half the time of the first way but it adds a extra variable onto the memory. This is the better way though cause of the speed that it accomplishes the code.
+// O(n)
+
 function revStr2(str) {
   let arr = new Array(str.length)
   let charsArr = str.split("")
